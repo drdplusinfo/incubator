@@ -1,0 +1,8 @@
+.jeskyne-a-draci {
+    background-image: url(/images/links/jeskyne-a-draci-monochrome.png?version=3989dd77ed6ba0d3637503a96f37cd59);
+    color: black;
+}
+
+.jeskyne-a-draci:hover {
+    background-image: url(/images/links/jeskyne-a-draci-color.png?version=a857302aade763115c83427efb3918fb);
+}

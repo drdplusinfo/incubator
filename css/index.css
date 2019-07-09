@@ -1,0 +1,131 @@
+body {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.background-image {
+    background-size: contain;
+}
+
+input[type=submit] {
+    font-size: inherit;
+}
+
+hr {
+    margin: 0.2em 0;
+    border-top: 2px solid rgba(171, 171, 171, 0.55);
+}
+
+.link {
+    display: block;
+    height: 8em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: none;
+    display: block;
+    height: 8em;
+    text-align: center;
+    line-height: 8em;
+    color: black;
+    text-shadow: 0 0 3px whitesmoke, 0 0 1px white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    color: #ffd4a4;
+    text-shadow: 0 0 3px black;
+}
+
+.links a:hover {
+    color: #ffd4a4;
+    text-shadow: 0 0 3px black;
+}
+
+a.external-url {
+    text-decoration: none;
+    border: none;
+}
+
+a.external-url:hover {
+    color: #ffd4a4;
+    text-shadow: 0 0 3px black;
+}
+
+a::first-line {
+    vertical-align: middle; /* for anchor */
+}
+
+.links .link {
+    height: initial;
+    line-height: initial;
+    margin: auto;
+    display: block;
+    font-size: 90%;
+}
+
+@media (max-width: 991px) {
+    .links .link {
+        line-height: 0.95;
+    }
+}
+
+@media (max-width: 767px) {
+    .links .link {
+        line-height: 1.2;
+    }
+}
+
+.col-md {
+    padding: 4px;
+}
+
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.last-change {
+    font-style: italic;
+    font-weight: bold;
+    color: #004a00;
+}
+
+a:hover .last-change {
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+.lock {
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
+}
+
+.percents {
+    font-style: italic;
+    color: orangered;
+    opacity: .8;
+}
+
+.handbook {
+    background-size: cover;
+}
+
+.forum {
+    font-style: italic;
+}
+
+.character-sheet {
+    font-style: italic;
+}
+
+.small-image {
+    background-position: center;
+    background-size: contain;
+}

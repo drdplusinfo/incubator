@@ -1,0 +1,37 @@
+{
+  "name": "drdplus/incubator",
+  "license": "MIT",
+  "type": "page",
+  "description": "Projects somehow close to DrD+ but not yet released",
+  "keywords": [
+    "Drd plus",
+    "rules",
+    "sites",
+    "incubator",
+    "related",
+    "RPG"
+  ],
+  "autoload": {
+    "psr-4": {
+      "DrdPlus\\": "DrdPlus/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "drdplus/rules-skeleton": "~1.1"
+  },
+  "require-dev": {
+    "composer/composer": "^1.8",
+    "mockery/mockery": "~1.0",
+    "phpunit/phpunit": "~7.0",
+    "roave/security-advisories": "dev-master"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "scripts": {
+    "pre-autoload-dump": [
+      "rm -f DrdPlus/Tests/RulesSkeleton && ln -s ../../vendor/drdplus/rules-skeleton/DrdPlus/Tests/RulesSkeleton DrdPlus/Tests/"
+    ]
+  }
+}
