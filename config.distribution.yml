@@ -4,8 +4,8 @@ web:
   eshop_url: 'https://obchod.altar.cz/'
   menu_position_fixed: true
   show_home_button: false
-  name: 'DrD+ pravidla a odkazy'
-  title_smiley: '📚'
+  name: 'Těšíme se na vylíhnutí'
+  title_smiley: '🐣'
   show_debug_contacts: false
 google:
   analytics_id: 'UA-121206931-1'
