@@ -371,17 +371,17 @@
     },
     {
         "name": "drdplus/rules-skeleton",
-        "version": "1.3.0",
-        "version_normalized": "1.3.0.0",
+        "version": "1.3.2",
+        "version_normalized": "1.3.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/drdplusinfo/rules-skeleton.git",
-            "reference": "9305badf14bda154ecb9f2930dc67ca4e7f48e99"
+            "reference": "b5ee567061fb8fa81e0f48854de3d4f7a34c7498"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/drdplusinfo/rules-skeleton/zipball/9305badf14bda154ecb9f2930dc67ca4e7f48e99",
-            "reference": "9305badf14bda154ecb9f2930dc67ca4e7f48e99",
+            "url": "https://api.github.com/repos/drdplusinfo/rules-skeleton/zipball/b5ee567061fb8fa81e0f48854de3d4f7a34c7498",
+            "reference": "b5ee567061fb8fa81e0f48854de3d4f7a34c7498",
             "shasum": ""
         },
         "require": {
@@ -418,7 +418,7 @@
             "phpunit/phpunit": "^7.5",
             "roave/security-advisories": "dev-master"
         },
-        "time": "2019-07-11T19:34:20+00:00",
+        "time": "2019-07-22T07:31:52+00:00",
         "bin": [
             "bin/fix_web_permissions.sh"
         ],
@@ -1961,17 +1961,17 @@
     },
     {
         "name": "phpunit/phpunit",
-        "version": "7.5.13",
-        "version_normalized": "7.5.13.0",
+        "version": "7.5.14",
+        "version_normalized": "7.5.14.0",
         "source": {
             "type": "git",
             "url": "https://github.com/sebastianbergmann/phpunit.git",
-            "reference": "b9278591caa8630127f96c63b598712b699e671c"
+            "reference": "2834789aeb9ac182ad69bfdf9ae91856a59945ff"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b9278591caa8630127f96c63b598712b699e671c",
-            "reference": "b9278591caa8630127f96c63b598712b699e671c",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2834789aeb9ac182ad69bfdf9ae91856a59945ff",
+            "reference": "2834789aeb9ac182ad69bfdf9ae91856a59945ff",
             "shasum": ""
         },
         "require": {
@@ -2010,7 +2010,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "^2.0"
         },
-        "time": "2019-06-19T12:01:51+00:00",
+        "time": "2019-07-15T06:24:08+00:00",
         "bin": [
             "phpunit"
         ],
@@ -2033,8 +2033,8 @@
         "authors": [
             {
                 "name": "Sebastian Bergmann",
-                "email": "sebastian@phpunit.de",
-                "role": "lead"
+                "role": "lead",
+                "email": "sebastian@phpunit.de"
             }
         ],
         "description": "The PHP Unit Testing framework.",
@@ -2047,22 +2047,22 @@
     },
     {
         "name": "piwik/device-detector",
-        "version": "3.11.8",
-        "version_normalized": "3.11.8.0",
+        "version": "3.12.0",
+        "version_normalized": "3.12.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/matomo-org/device-detector.git",
-            "reference": "8bfdbafc07ef6ba1c3cfff3bbb0554a860828a39"
+            "reference": "a698de2c57d8e106b8f8e54671b4bf794dc9698e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/8bfdbafc07ef6ba1c3cfff3bbb0554a860828a39",
-            "reference": "8bfdbafc07ef6ba1c3cfff3bbb0554a860828a39",
+            "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/a698de2c57d8e106b8f8e54671b4bf794dc9698e",
+            "reference": "a698de2c57d8e106b8f8e54671b4bf794dc9698e",
             "shasum": ""
         },
         "require": {
             "mustangostang/spyc": "*",
-            "php": ">=5.3.2"
+            "php": ">=5.5"
         },
         "require-dev": {
             "fabpot/php-cs-fixer": "~1.7",
@@ -2075,7 +2075,7 @@
             "doctrine/cache": "Can directly be used for caching purpose",
             "ext-yaml": "Necessary for using the Pecl YAML parser"
         },
-        "time": "2019-06-20T21:32:44+00:00",
+        "time": "2019-07-22T14:35:14+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -2209,12 +2209,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Roave/SecurityAdvisories.git",
-            "reference": "a53a6f855cbff7edb078f87c72bb808c89443a00"
+            "reference": "ea693fa060702164985511acc3ceb5389c9ac761"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a53a6f855cbff7edb078f87c72bb808c89443a00",
-            "reference": "a53a6f855cbff7edb078f87c72bb808c89443a00",
+            "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ea693fa060702164985511acc3ceb5389c9ac761",
+            "reference": "ea693fa060702164985511acc3ceb5389c9ac761",
             "shasum": ""
         },
         "conflict": {
@@ -2249,8 +2249,8 @@
             "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
             "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
             "dompdf/dompdf": ">=0.6,<0.6.2",
-            "drupal/core": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1",
-            "drupal/drupal": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1",
+            "drupal/core": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1|>8.7.3,<8.7.5",
+            "drupal/drupal": ">=7,<7.67|>=8,<8.6.16|>=8.7,<8.7.1|>8.7.3,<8.7.5",
             "erusev/parsedown": "<1.7.2",
             "ezsystems/ezplatform-admin-ui": ">=1.3,<1.3.5|>=1.4,<1.4.4",
             "ezsystems/ezpublish-kernel": ">=5.3,<5.3.12.1|>=5.4,<5.4.13.1|>=6,<6.7.9.1|>=6.8,<6.13.5.1|>=7,<7.2.4.1|>=7.3,<7.3.2.1",
@@ -2317,7 +2317,7 @@
             "silverstripe/userforms": "<3",
             "simple-updates/phpwhois": "<=1",
             "simplesamlphp/saml2": "<1.10.6|>=2,<2.3.8|>=3,<3.1.4",
-            "simplesamlphp/simplesamlphp": "<1.15.2|>=1.16,<1.16.3",
+            "simplesamlphp/simplesamlphp": "<1.17.3",
             "simplesamlphp/simplesamlphp-module-infocard": "<1.0.1",
             "slim/slim": "<2.6",
             "smarty/smarty": "<3.1.33",
@@ -2403,7 +2403,7 @@
             "zfcampus/zf-apigility-doctrine": ">=1,<1.0.3",
             "zfr/zfr-oauth2-server-module": "<0.1.2"
         },
-        "time": "2019-06-25T10:37:35+00:00",
+        "time": "2019-07-18T15:17:58+00:00",
         "type": "metapackage",
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -4118,17 +4118,17 @@
     },
     {
         "name": "tracy/tracy",
-        "version": "v2.6.3",
-        "version_normalized": "2.6.3.0",
+        "version": "v2.6.4",
+        "version_normalized": "2.6.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/nette/tracy.git",
-            "reference": "7613eeff265b49a865add75360d1962449e3c12f"
+            "reference": "cad2ec2c40cee828ce5538a4bc5bbde7045a7c1b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nette/tracy/zipball/7613eeff265b49a865add75360d1962449e3c12f",
-            "reference": "7613eeff265b49a865add75360d1962449e3c12f",
+            "url": "https://api.github.com/repos/nette/tracy/zipball/cad2ec2c40cee828ce5538a4bc5bbde7045a7c1b",
+            "reference": "cad2ec2c40cee828ce5538a4bc5bbde7045a7c1b",
             "shasum": ""
         },
         "require": {
@@ -4145,7 +4145,7 @@
         "suggest": {
             "https://nette.org/donate": "Please support Tracy via a donation"
         },
-        "time": "2019-06-18T12:20:11+00:00",
+        "time": "2019-07-16T14:23:55+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
