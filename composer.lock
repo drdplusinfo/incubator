@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61f320e0861a166d82375724f7e756dc",
+    "content-hash": "0cf950b02ad52a0317c97e63a4076d24",
     "packages": [
         {
             "name": "drdplus/rules-skeleton",
