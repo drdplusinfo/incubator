@@ -2,9 +2,9 @@
 
 namespace DrdPlus\Incubator;
 
-use DrdPlus\FrontendSkeleton\AbstractPublicFiles;
+use Granam\Strict\Object\StrictObject;
 
-class ColorImages extends AbstractPublicFiles
+class ColorImages extends StrictObject implements \IteratorAggregate
 {
     /**
      * @var string

@@ -22,7 +22,8 @@ $mailPreFill = implode('&', array_map('htmlspecialchars', $mailPreFillsWIthKeys)
         <div class="align-middle text-center">
           <h2 class="on-hover">
             <span class="hide-on-hover">Máš návrh?</span>
-            <span class="show-on-hover">Sem s ním! <i class="fas fa-envelope"></i></span>
+            <span class="show-on-hover">Sem s ním!</span>
+            <i class="fas fa-envelope"></i>
           </h2>
         </div>
       </a>
