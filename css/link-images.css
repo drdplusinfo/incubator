@@ -10,6 +10,8 @@
 .draci-a-dracata {
     background-image: url(/images/links/draci-a-dracata-monochrome.png?version=73d401687ca8caa744cd77ebef39ee65);
     color: black;
+    background-size: contain;
+    background-position-x: center;
 }
 
 .draci-a-dracata:hover {
