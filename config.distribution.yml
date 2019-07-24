@@ -3,7 +3,7 @@ web:
   protected_access: false
   eshop_url: 'https://obchod.altar.cz/'
   menu_position_fixed: true
-  show_home_button: false
+  show_home_button: true
   name: 'Těšíme se na vylíhnutí'
   title_smiley: '🐣'
   show_debug_contacts: false
