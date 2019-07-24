@@ -7,5 +7,7 @@ web:
   name: 'Těšíme se na vylíhnutí'
   title_smiley: '🐣'
   show_debug_contacts: false
+application:
+  yaml_file_with_routes: 'routes.yml'
 google:
   analytics_id: 'UA-121206931-1'
