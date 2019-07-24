@@ -6,11 +6,12 @@ Ahoj, měl(a) bych návrh na další zajímavou nepočítačovou RPG hru, která
 
 Odkaz na ní je www.example.com 
 TEXT
+    ,
 ];
 
 $mailPreFillsWIthKeys = [];
 foreach ($mailPreFills as $key => $mailPreFillValue) {
-  $mailPreFillsWIthKeys[] = "$key=$mailPreFillValue";
+    $mailPreFillsWIthKeys[] = "$key=$mailPreFillValue";
 }
 
 $mailPreFill = implode('&', array_map('htmlspecialchars', $mailPreFillsWIthKeys));
@@ -21,9 +22,8 @@ $mailPreFill = implode('&', array_map('htmlspecialchars', $mailPreFillsWIthKeys)
       <a class="navrh" href="mailto:info@drdplus.info?<?= $mailPreFill ?>">
         <div class="align-middle text-center">
           <h2 class="on-hover">
-            <span class="hide-on-hover">Máš návrh?</span>
-            <span class="show-on-hover">Sem s ním!</span>
-            <i class="fas fa-envelope"></i>
+            <span class="hide-on-hover">Máš návrh?<br><i class="fas fa-envelope"></i></span>
+            <span class="show-on-hover">Sem s ním!<br><i class="fas fa-envelope-open"></i></span>
           </h2>
         </div>
       </a>
