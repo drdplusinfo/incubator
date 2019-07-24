@@ -6,3 +6,12 @@
 .jeskyne-a-draci:hover {
     background-image: url(/images/links/jeskyne-a-draci-color.png?version=a857302aade763115c83427efb3918fb);
 }
+
+.draci-a-dracata {
+    background-image: url(/images/links/draci-a-dracata-monochrome.png?version=73d401687ca8caa744cd77ebef39ee65);
+    color: black;
+}
+
+.draci-a-dracata:hover {
+    background-image: url(/images/links/draci-a-dracata-color.png?version=08784538eb85fa6cb8ed0498d47729e8);
+}
