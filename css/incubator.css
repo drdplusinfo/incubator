@@ -23,7 +23,7 @@ hr {
     background-repeat: no-repeat;
 }
 
-a {
+.guidepost a {
     text-decoration: none;
     border-bottom: none;
     display: block;
@@ -36,7 +36,7 @@ a {
     background-repeat: no-repeat;
 }
 
-a:hover {
+.guidepost a:hover {
     color: #ffd4a4;
     text-shadow: 0 0 3px black;
     text-decoration: none;
@@ -59,7 +59,7 @@ a.navrh:hover {
     text-shadow: 0 0 3px black;
 }
 
-a.external-url {
+.guidepost a.external-url {
     text-decoration: none;
     border: none;
 }
@@ -67,9 +67,10 @@ a.external-url {
 a.external-url:hover {
     color: #ffd4a4;
     text-shadow: 0 0 3px black;
+    text-decoration: none;
 }
 
-a::first-line {
+.guidepost a::first-line {
     vertical-align: middle; /* for anchor */
 }
 
@@ -158,4 +159,29 @@ a:hover .last-change {
 
 .on-hover:hover .hide-on-hover {
     display: none;
+}
+
+@media (min-width: 768px) {
+    .container-fluid {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        max-width: 900px;
+    }
+}
+
+.article-image {
+    max-height: 260px;
+    min-height: 220px;
+    display: block;
+    float: left;
+    padding: 0 1em 0 0;
+    height: 30vw;
+}
+
+article hr {
+    margin: 1em 0;
 }

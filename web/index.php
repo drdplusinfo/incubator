@@ -16,7 +16,7 @@ foreach ($mailPreFills as $key => $mailPreFillValue) {
 
 $mailPreFill = implode('&', array_map('htmlspecialchars', $mailPreFillsWIthKeys));
 ?>
-<div class="container">
+<div class="container guidepost">
   <div class="row">
     <div class="col" id="proposal">
       <a class="navrh" href="mailto:info@drdplus.info?<?= $mailPreFill ?>">
