@@ -185,3 +185,7 @@ a:hover .last-change {
 article hr {
     margin: 1em 0;
 }
+
+article .note {
+    float: right;
+}
