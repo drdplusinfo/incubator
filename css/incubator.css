@@ -23,77 +23,6 @@ hr {
     background-repeat: no-repeat;
 }
 
-.guidepost a {
-    text-decoration: none;
-    border-bottom: none;
-    display: block;
-    height: 8em;
-    text-align: center;
-    line-height: 8em;
-    color: black;
-    text-shadow: 0 0 3px whitesmoke, 0 0 1px white;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.guidepost a:hover {
-    color: #ffd4a4;
-    text-shadow: 0 0 3px black;
-    text-decoration: none;
-    box-shadow: 0 8px 6px -6px black;
-}
-
-a.navrh {
-    display: inherit;
-    height: inherit;
-    line-height: inherit;
-}
-
-a.navrh:hover {
-    background-color: rgba(32, 30, 28, 0.47);
-    border-radius: 3px;
-}
-
-.links a:hover {
-    color: #ffd4a4;
-    text-shadow: 0 0 3px black;
-}
-
-.guidepost a.external-url {
-    text-decoration: none;
-    border: none;
-}
-
-a.external-url:hover {
-    color: #ffd4a4;
-    text-shadow: 0 0 3px black;
-    text-decoration: none;
-}
-
-.guidepost a::first-line {
-    vertical-align: middle; /* for anchor */
-}
-
-.links .link {
-    height: initial;
-    line-height: initial;
-    margin: auto;
-    display: block;
-    font-size: 90%;
-}
-
-@media (max-width: 991px) {
-    .links .link {
-        line-height: 0.95;
-    }
-}
-
-@media (max-width: 767px) {
-    .links .link {
-        line-height: 1.2;
-    }
-}
-
 .col-md {
     padding: 4px;
 }
@@ -105,13 +34,13 @@ a.external-url:hover {
     line-height: normal;
 }
 
-.last-change {
+.date {
     font-style: italic;
     font-weight: bold;
     color: #004a00;
 }
 
-a:hover .last-change {
+a:hover .date {
     font-weight: normal;
     color: whitesmoke;
 }

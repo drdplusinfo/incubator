@@ -30,14 +30,28 @@ $mailPreFill = implode('&', $mailPreFillsWithKeys);
     </div>
   </div>
   <div class="row">
-    <div class="col-md col-sm no-gutters" id="DnD">
+    <div class="col-md col-sm-6 no-gutters" id="draciHlidka">
+      <a class="draci-hlidka" href="https://www.dracihlidka.cz/#top">
+        <div class="name">Dračí hlídka<br>
+          <div class="date">září 2019</div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md col-sm no-gutters" id="jeskyneADraci">
       <a class="jeskyne-a-draci" href="/jeskyne-a-draci">
         <div class="name">Jeskyně a draci
           <div class="note">Dungeons & Dragons česky</div>
         </div>
       </a>
     </div>
-    <div class="col-md col-sm no-gutters" id="DraciADracata">
+  </div>
+  <div class="row">
+    <div class="col-md col-sm-6 no-gutters" id="neviditelnaKniha">
+      <a class="neviditelna-kniha small-image" href="http://neviditelnakniha.cz/">
+        <div class="name">Neviditelná kniha 2</div>
+      </a>
+    </div>
+    <div class="col-md col-sm no-gutters" id="draciADracata">
       <a class="draci-a-dracata" href="/draci-a-dracata">
         <div class="name">Draci a dráčata
           <div class="note">Osedlej si draka</div>

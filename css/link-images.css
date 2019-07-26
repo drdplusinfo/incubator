@@ -1,9 +1,9 @@
-.guidepost .jeskyne-a-draci {
+.guidepost .draci-hlidka {
     background-image: url(/images/links/jeskyne-a-draci-monochrome.png?version=3989dd77ed6ba0d3637503a96f37cd59);
     color: black;
 }
 
-.guidepost .jeskyne-a-draci:hover {
+.guidepost .draci-hlidka:hover {
     background-image: url(/images/links/jeskyne-a-draci-color.png?version=a857302aade763115c83427efb3918fb);
 }
 
@@ -16,4 +16,16 @@
 
 .guidepost .draci-a-dracata:hover {
     background-image: url(/images/links/draci-a-dracata-color.png?version=08784538eb85fa6cb8ed0498d47729e8);
+}
+
+.guidepost .neviditelna-kniha {
+    background-image: url(/images/links/neviditelna-kniha-monochrome.png?version=58964963922df4c0d4312468daceeacf);
+    color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.guidepost .neviditelna-kniha:hover {
+    background-image: url(/images/links/neviditelna-kniha-color.png?version=1c28b0f33c65f3a5de719e1947f9297c);
 }
