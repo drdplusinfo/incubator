@@ -31,7 +31,7 @@ $mailPreFill = implode('&', $mailPreFillsWithKeys);
   </div>
   <div class="row">
     <div class="col-md col-sm no-gutters" id="DnD">
-      <a class="jeskyne-a-draci" href="http://jeskyneadraci.cz/">
+      <a class="jeskyne-a-draci" href="/jeskyne-a-draci">
         <div class="name">Jeskyně a draci
           <div class="note">Dungeons & Dragons česky</div>
         </div>
