@@ -1,6 +1,6 @@
 <?php
 $mailPreFills = [
-    'subject' => 'Návrh do inkubátoru inkubator.drdplus.info',
+    'subject' => 'Návrh do inkubátoru',
     'body' => <<<TEXT
 Ahoj, měl(a) bych návrh na další zajímavou nepočítačovou RPG hru, která sice ještě není hotová, ale vyvíjí se slibně.
 
@@ -9,12 +9,12 @@ TEXT
     ,
 ];
 
-$mailPreFillsWIthKeys = [];
+$mailPreFillsWithKeys = [];
 foreach ($mailPreFills as $key => $mailPreFillValue) {
-    $mailPreFillsWIthKeys[] = "$key=$mailPreFillValue";
+    $mailPreFillsWithKeys[] = rawurlencode($key) . '=' . rawurlencode($mailPreFillValue);
 }
 
-$mailPreFill = implode('&', array_map('htmlspecialchars', $mailPreFillsWIthKeys));
+$mailPreFill = implode('&', $mailPreFillsWithKeys);
 ?>
 <div class="container guidepost">
   <div class="row">
