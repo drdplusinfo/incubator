@@ -17,6 +17,11 @@
     text-shadow: 0 0 3px black;
     text-decoration: none;
     box-shadow: 0 8px 6px -6px black;
+    background-color: rgba(255, 139, 9, 0.18);
+}
+
+.guidepost .small-image {
+    background-size: contain;
 }
 
 .guidepost a.navrh {
