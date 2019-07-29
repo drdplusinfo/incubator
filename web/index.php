@@ -16,7 +16,7 @@ foreach ($mailPreFills as $key => $mailPreFillValue) {
 $mailPreFill = implode('&', $mailPreFillsWithKeys);
 
 $newProposal = <<<HTML
-<a class="navrh" href="mailto:info@drdplus.info?<?= $mailPreFill ?>">
+<a class="navrh" href="mailto:info@drdplus.info?{$mailPreFill}">
   <div class="align-middle text-center">
     <h2 class="on-hover">
       <span class="hide-on-hover">Máš návrh?<br><i class="fas fa-envelope"></i></span>
