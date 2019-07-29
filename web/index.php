@@ -13,20 +13,24 @@ $mailPreFillsWithKeys = [];
 foreach ($mailPreFills as $key => $mailPreFillValue) {
     $mailPreFillsWithKeys[] = rawurlencode($key) . '=' . rawurlencode($mailPreFillValue);
 }
-
 $mailPreFill = implode('&', $mailPreFillsWithKeys);
+
+$newProposal = <<<HTML
+<a class="navrh" href="mailto:info@drdplus.info?<?= $mailPreFill ?>">
+  <div class="align-middle text-center">
+    <h2 class="on-hover">
+      <span class="hide-on-hover">Máš návrh?<br><i class="fas fa-envelope"></i></span>
+      <span class="show-on-hover">Sem s ním!<br><i class="fas fa-envelope-open"></i></span>
+    </h2>
+  </div>
+</a>
+HTML;
+
 ?>
 <div class="container guidepost">
   <div class="row">
-    <div class="col" id="proposal">
-      <a class="navrh" href="mailto:info@drdplus.info?<?= $mailPreFill ?>">
-        <div class="align-middle text-center">
-          <h2 class="on-hover">
-            <span class="hide-on-hover">Máš návrh?<br><i class="fas fa-envelope"></i></span>
-            <span class="show-on-hover">Sem s ním!<br><i class="fas fa-envelope-open"></i></span>
-          </h2>
-        </div>
-      </a>
+    <div class="col" id="topProposal">
+        <?= $newProposal ?>
     </div>
   </div>
   <div class="row">
@@ -52,11 +56,30 @@ $mailPreFill = implode('&', $mailPreFillsWithKeys);
       </a>
     </div>
     <div class="col-md col-sm no-gutters" id="draciADracata">
+      <a class="draci-a-dracata small-image" href="/draci-a-dracata">
+        <div class="name">Draci a dráčata
+          <div class="note">Osedlej si draka</div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md col-sm-6 no-gutters" id="zapovezeneZeme">
+      <a class="zapovezene-zeme" href="http://mytago.cz/zapovezene-zeme">
+        <div class="name">Neviditelná kniha 2</div>
+      </a>
+    </div>
+    <div class="col-md col-sm no-gutters" id="draciADracata">
       <a class="draci-a-dracata" href="/draci-a-dracata">
         <div class="name">Draci a dráčata
           <div class="note">Osedlej si draka</div>
         </div>
       </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col" id="bottomProposal">
+        <?= $newProposal ?>
     </div>
   </div>
 </div>
