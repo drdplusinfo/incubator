@@ -1,9 +1,18 @@
 .guidepost .draci-hlidka {
-    background-image: url(/images/links/jeskyne-a-draci-monochrome.png?version=3989dd77ed6ba0d3637503a96f37cd59);
+    background-image: url(/images/links/draci-hlidka-monochrome.png?version=7e82c614b88c7a9b5415b037c735345c);
     color: black;
 }
 
 .guidepost .draci-hlidka:hover {
+    background-image: url(/images/links/draci-hlidka-color.png?version=609f02e8f4b2d40a4b98323e0215bb8f);
+}
+
+.guidepost .jeskyne-a-draci {
+    background-image: url(/images/links/jeskyne-a-draci-monochrome.png?version=3989dd77ed6ba0d3637503a96f37cd59);
+    color: black;
+}
+
+.guidepost .jeskyne-a-draci:hover {
     background-image: url(/images/links/jeskyne-a-draci-color.png?version=a857302aade763115c83427efb3918fb);
 }
 
