@@ -35,7 +35,7 @@ HTML;
   </div>
   <div class="row">
     <div class="col-md col-sm-6 no-gutters" id="draciHlidka">
-      <a class="draci-hlidka" href="https://www.dracihlidka.cz/#top">
+      <a class="draci-hlidka" href="/draci-hlidka">
         <div class="name">Dračí hlídka<br>
           <div class="date">září 2019</div>
         </div>
@@ -51,7 +51,7 @@ HTML;
   </div>
   <div class="row">
     <div class="col-md col-sm-6 no-gutters" id="neviditelnaKniha">
-      <a class="neviditelna-kniha small-image" href="http://neviditelnakniha.cz/">
+      <a class="neviditelna-kniha small-image" href="/neviditelna-kniha-2">
         <div class="name">Neviditelná kniha 2</div>
       </a>
     </div>
@@ -65,15 +65,13 @@ HTML;
   </div>
   <div class="row">
     <div class="col-md col-sm-6 no-gutters" id="zapovezeneZeme">
-      <a class="zapovezene-zeme" href="http://mytago.cz/zapovezene-zeme">
-        <div class="name">Neviditelná kniha 2</div>
+      <a class="zapovezene-zeme" href="/zapovezene-zeme">
+        <div class="name">Zapovězené země</div>
       </a>
     </div>
     <div class="col-md col-sm no-gutters" id="draciADracata">
-      <a class="draci-a-dracata" href="/draci-a-dracata">
-        <div class="name">Draci a dráčata
-          <div class="note">Osedlej si draka</div>
-        </div>
+      <a class="dracak-podle-stare-skoly" href="/dracak-podle-stare-skoly">
+        <div class="name">Dračák podle staré školy</div>
       </a>
     </div>
   </div>

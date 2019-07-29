@@ -69,11 +69,6 @@ a:hover .date {
     font-style: italic;
 }
 
-.small-image {
-    background-position: center;
-    background-size: contain;
-}
-
 .on-hover .show-on-hover {
     display: none;
 }
@@ -100,25 +95,4 @@ a:hover .date {
     .container-fluid {
         max-width: 900px;
     }
-}
-
-.article-image {
-    max-height: 260px;
-    min-height: 220px;
-    display: block;
-    float: left;
-    padding: 0 1em 0 0;
-    height: 30vw;
-}
-
-article hr {
-    margin: 1em 0;
-}
-
-article .note {
-    text-align: right;
-}
-
-p {
-    margin: 1em 0 0 0;
 }

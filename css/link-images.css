@@ -1,3 +1,8 @@
+.guidepost .small-image {
+    background-position: center;
+    background-size: contain;
+}
+
 .guidepost .draci-hlidka {
     background-image: url(/images/links/draci-hlidka-monochrome.png?version=7e82c614b88c7a9b5415b037c735345c);
 }
