@@ -96,3 +96,7 @@ a:hover .date {
         max-width: 900px;
     }
 }
+
+h1 {
+    margin: 0.5em 0 1em;
+}

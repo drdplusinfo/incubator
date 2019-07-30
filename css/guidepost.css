@@ -74,3 +74,15 @@
         line-height: 1.2;
     }
 }
+
+.guidepost h1 a, .guidepost h1 a:hover {
+    height: initial;
+    line-height: initial;
+    margin: auto;
+    display: initial;
+    color: initial;
+    text-shadow: initial;
+    text-decoration: initial;
+    box-shadow: initial;
+    background-color: initial;
+}
