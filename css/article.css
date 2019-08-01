@@ -25,3 +25,7 @@ article .small-image {
     max-height: initial;
     min-height: initial;
 }
+
+article .summary {
+    font-style: italic;
+}
