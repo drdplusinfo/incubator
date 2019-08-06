@@ -34,3 +34,11 @@
 .guidepost .neviditelna-kniha:hover {
     background-image: url(/images/links/neviditelna-kniha-color.png?version=1c28b0f33c65f3a5de719e1947f9297c);
 }
+
+.guidepost .zapovezene-zeme {
+    background-image: url(/images/links/zapovezene-zeme-monochrome.png?version=80a27ac88eb0dbfea507f7aca423dfe1);
+}
+
+.guidepost .zapovezene-zeme:hover {
+    background-image: url(/images/links/zapovezene-zeme-color.png?version=f02e50c443d1822413b36a96297cf48d);
+}
