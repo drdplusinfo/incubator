@@ -69,7 +69,7 @@ HTML;
         <div class="name">Zapovězené země</div>
       </a>
     </div>
-    <div class="col-md col-sm no-gutters" id="draciADracata">
+    <div class="col-md col-sm no-gutters" id="dracakPodleStareSkoly">
       <a class="dracak-podle-stare-skoly" href="/dracak-podle-stare-skoly">
         <div class="name">Dračák podle staré školy</div>
       </a>

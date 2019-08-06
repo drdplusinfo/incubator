@@ -5,12 +5,14 @@ has_protected_access: false
 can_be_bought_on_eshop: false
 has_character_sheet: false
 has_links_to_journals: false
+has_links_to_altar: false
 has_link_to_single_journal: false
 has_debug_contacts: false
 has_custom_body_content: false
 has_table_of_contents: false
 has_headings: false
-has_local_links: false
+has_local_links: true
+has_pdf: false
 some_expected_table_ids: []
 expected_web_name: 'Těšíme se na vylíhnutí'
 expected_page_title: '🐣 Těšíme se na vylíhnutí'
