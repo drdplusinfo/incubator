@@ -18,7 +18,7 @@ $mailPreFill = implode('&', $mailPreFillsWithKeys);
 $newProposal = <<<HTML
 <a class="navrh" href="mailto:info@drdplus.info?{$mailPreFill}">
   <div class="align-middle text-center">
-    <h2 class="on-hover">
+    <h2 class="on-hover heading-without-id">
       <span class="hide-on-hover">Máš návrh?<br><i class="fas fa-envelope"></i></span>
       <span class="show-on-hover">Sem s ním!<br><i class="fas fa-envelope-open"></i></span>
     </h2>
