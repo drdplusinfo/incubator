@@ -13,19 +13,24 @@ class TablesTest extends AbstractContentTest
 {
     /**
      * @test
+     * @dataProvider provideParametersToGetTablesOnly
+     * @param array $get
+     * @param string $url
      */
-    public function I_can_get_tables_only(): void
+    public function I_can_get_tables_only(array $get, string $url): void
     {
-        $htmlDocumentWithTablesOnly = $this->getHtmlDocument([Request::TABLES => '' /* all of them */]);
+        $this->passOut(); // tables should be accessible for free
+        $htmlDocumentWithTablesOnly = $this->getHtmlDocument($get, [], [], $url);
         /** @var NodeList|Element[] $tables */
         $tables = $htmlDocumentWithTablesOnly->getElementsByTagName('table');
+        $expectedTableIds = $this->getTableIds();
         if (!$this->getTestsConfiguration()->hasTables()) {
             self::assertCount(0, $tables, 'No tables expected due to tests configuration');
-            self::assertCount(0, $this->getTableIds(), 'No tables expected due to tests configuration');
-
-            return;
+            self::assertCount(0, $expectedTableIds, 'No tables expected due to tests configuration');
+        } else {
+            self::assertGreaterThan(0, count($tables), 'Some tables expected due to tests configuration');
+            self::assertGreaterThan(0, count($expectedTableIds), 'Some tables expected due to tests configuration');
         }
-        $expectedTableIds = $this->getTableIds();
         $fetchedTableIds = $this->getElementsIds($tables);
         $missingIds = \array_diff($expectedTableIds, $fetchedTableIds);
         self::assertEmpty($missingIds, 'Some tables with IDs are missing: ' . \implode(',', $missingIds));
@@ -33,10 +38,20 @@ class TablesTest extends AbstractContentTest
         $this->Expected_table_ids_are_present($fetchedTableIds);
     }
 
+    public function provideParametersToGetTablesOnly(): array
+    {
+        return [
+            'via query parameter' => [[Request::TABLES => '' /* all of them */], '/'],
+            'via english path' => [[], '/' . Request::TABLES],
+            'via czech path' => [[], '/' . Request::TABULKY],
+        ];
+    }
+
     protected function getTableIds(): array
     {
         static $tableIds;
         if ($tableIds === null) {
+            $this->passIn(); // parse table IDs from passed content
             $tableIds = $this->parseTableIds($this->getHtmlDocument());
             \sort($tableIds);
             $this->Expected_table_ids_are_present($tableIds);
