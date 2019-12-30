@@ -155,16 +155,16 @@
         },
         {
             "name": "granam/git",
-            "version": "1.2.6",
+            "version": "1.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/granam/git.git",
-                "reference": "d01c93b17c15996dd7f96092e06b64739a3606bc"
+                "reference": "76f3fd703a600133a5dc901916d2f9f9ff6215b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/granam/git/zipball/d01c93b17c15996dd7f96092e06b64739a3606bc",
-                "reference": "d01c93b17c15996dd7f96092e06b64739a3606bc",
+                "url": "https://api.github.com/repos/granam/git/zipball/76f3fd703a600133a5dc901916d2f9f9ff6215b9",
+                "reference": "76f3fd703a600133a5dc901916d2f9f9ff6215b9",
                 "shasum": ""
             },
             "require": {
@@ -194,7 +194,7 @@
                 "tag",
                 "versions"
             ],
-            "time": "2019-09-04T11:51:57+00:00"
+            "time": "2019-12-30T08:26:50+00:00"
         },
         {
             "name": "granam/scalar",
@@ -2296,16 +2296,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.3",
+            "version": "4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62"
+                "reference": "da3fd972d6bafd628114f7e7e036f45944b62e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
-                "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/da3fd972d6bafd628114f7e7e036f45944b62e9c",
+                "reference": "da3fd972d6bafd628114f7e7e036f45944b62e9c",
                 "shasum": ""
             },
             "require": {
@@ -2317,6 +2317,7 @@
             "require-dev": {
                 "doctrine/instantiator": "^1.0.5",
                 "mockery/mockery": "^1.0",
+                "phpdocumentor/type-resolver": "0.4.*",
                 "phpunit/phpunit": "^6.4"
             },
             "type": "library",
@@ -2343,7 +2344,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2019-12-20T13:40:23+00:00"
+            "time": "2019-12-28T18:55:12+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
